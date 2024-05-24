@@ -6,21 +6,16 @@
     android:layout_height="match_parent"
     tools:context=".PanacanViaBuhanginIlustre">
 
-    <TextView
-        android:layout_width="364dp"
-        android:layout_height="38dp"
-        android:fontFamily="casual"
-        android:shadowColor="#232222"
-        android:text="Panacan via Buhangin - Ilustre"
-        android:textAlignment="center"
-        android:textSize="20sp"
-        android:textStyle="bold"
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="422dp"
+        android:layout_height="838dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.489"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.057"/>
-
-
+        app:layout_constraintVertical_bias="0.39"
+        app:srcCompat="@drawable/panacanviabuhangin"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="280dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

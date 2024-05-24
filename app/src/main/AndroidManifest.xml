@@ -13,6 +13,96 @@
         android:theme="@style/Theme.PTEXAM"
         tools:targetApi="31">
         <activity
+            android:name=".Route13"
+            android:exported="false" />
+        <activity
+            android:name=".Route12"
+            android:exported="false" />
+        <activity
+            android:name=".Route11"
+            android:exported="false" />
+        <activity
+            android:name=".Route10"
+            android:exported="false" />
+        <activity
+            android:name=".Route9"
+            android:exported="false" />
+        <activity
+            android:name=".Route8"
+            android:exported="false" />
+        <activity
+            android:name=".Route7"
+            android:exported="false" />
+        <activity
+            android:name=".Route6"
+            android:exported="false" />
+        <activity
+            android:name=".Route5"
+            android:exported="false" />
+        <activity
+            android:name=".Route4"
+            android:exported="false" />
+        <activity
+            android:name=".Route3"
+            android:exported="false" />
+        <activity
+            android:name=".Route2"
+            android:exported="false" />
+        <activity
+            android:name=".Route1"
+            android:exported="false" />
+        <activity
+            android:name=".Callawa"
+            android:exported="false" />
+        <activity
+            android:name=".Mahayag"
+            android:exported="false" />
+        <activity
+            android:name=".Mandug"
+            android:exported="false" />
+        <activity
+            android:name=".Acacia"
+            android:exported="false" />
+        <activity
+            android:name=".Juliville"
+            android:exported="false" />
+        <activity
+            android:name=".Indangan"
+            android:exported="false" />
+        <activity
+            android:name=".Tigatto"
+            android:exported="false" />
+        <activity
+            android:name=".Cabantian"
+            android:exported="false" />
+        <activity
+            android:name=".ElRio"
+            android:exported="false" />
+        <activity
+            android:name=".Communal"
+            android:exported="false" />
+        <activity
+            android:name=".JadeValley"
+            android:exported="false" />
+        <activity
+            android:name=".LandmarkIIIRizalSt"
+            android:exported="false" />
+        <activity
+            android:name=".CampCatitipanViaDacudao"
+            android:exported="false" />
+        <activity
+            android:name=".CampCatitipanViaJPLaurel"
+            android:exported="false" />
+        <activity
+            android:name=".BuhanginViaDacudao"
+            android:exported="false" />
+        <activity
+            android:name=".BuhanginViaJPLaurel"
+            android:exported="false" />
+        <activity
+            android:name=".WelcomeDialog"
+            android:exported="false" />
+        <activity
             android:name=".TorilRoxasAvenue"
             android:exported="false" />
         <activity

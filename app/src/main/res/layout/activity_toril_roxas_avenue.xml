@@ -6,4 +6,15 @@
     android:layout_height="match_parent"
     tools:context=".TorilRoxasAvenue">
 
+    <ImageView
+        android:id="@+id/imageView30"
+        android:layout_width="422dp"
+        android:layout_height="838dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/toril"
+        tools:layout_editor_absoluteX="188dp"
+        tools:layout_editor_absoluteY="229dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

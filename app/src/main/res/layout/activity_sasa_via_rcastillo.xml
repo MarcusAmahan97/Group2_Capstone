@@ -6,20 +6,14 @@
     android:layout_height="match_parent"
     tools:context=".SasaViaRCastillo">
 
-    <TextView
-        android:layout_width="364dp"
-        android:layout_height="38dp"
-        android:fontFamily="casual"
-        android:shadowColor="#232222"
-        android:text="Sasa via R. Castillo"
-        android:textAlignment="center"
-        android:textSize="20sp"
-        android:textStyle="bold"
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="422dp"
+        android:layout_height="838dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.489"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.063"/>
-
+        app:srcCompat="@drawable/sasaviarcastillo"
+        tools:layout_editor_absoluteX="-6dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

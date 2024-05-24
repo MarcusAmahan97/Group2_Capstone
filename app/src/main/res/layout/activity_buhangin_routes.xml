@@ -2,13 +2,14 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/b"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/gradient_backgroundcolor4"
     tools:context=".BuhanginRoutes">
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnBuhanginJPL"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="casual"
@@ -22,7 +23,7 @@
         app:layout_constraintVertical_bias="0.054" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btnBuhanginDacu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="casual"
@@ -36,7 +37,7 @@
         app:layout_constraintVertical_bias="0.143" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/btnCampCatiJPL"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="casual"
@@ -49,7 +50,7 @@
         app:layout_constraintVertical_bias="0.243" />
 
     <Button
-        android:id="@+id/button14"
+        android:id="@+id/btnCampCatiDacu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="casual"
@@ -63,7 +64,7 @@
         app:layout_constraintVertical_bias="0.336" />
 
     <Button
-        android:id="@+id/button6"
+        android:id="@+id/btnLandmark"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="casual"
@@ -75,8 +76,9 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.433" />
 
+
     <Button
-        android:id="@+id/button7"
+        android:id="@+id/btnJadeValley"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="casual"
@@ -84,13 +86,13 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.269"
+        app:layout_constraintHorizontal_bias="0.106"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.531" />
 
     <Button
-        android:id="@+id/button8"
+        android:id="@+id/btnElRio"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="casual"
@@ -98,13 +100,13 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.746"
+        app:layout_constraintHorizontal_bias="0.879"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.531" />
 
     <Button
-        android:id="@+id/button15"
+        android:id="@+id/btnJuli"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="casual"
@@ -118,7 +120,7 @@
         app:layout_constraintVertical_bias="0.752" />
 
     <Button
-        android:id="@+id/button12"
+        android:id="@+id/btnTiga"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="casual"
@@ -132,7 +134,7 @@
         app:layout_constraintVertical_bias="0.653" />
 
     <Button
-        android:id="@+id/button13"
+        android:id="@+id/btnMand"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="casual"
@@ -146,7 +148,7 @@
         app:layout_constraintVertical_bias="0.856" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/btnCall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="casual"
@@ -160,7 +162,7 @@
         app:layout_constraintVertical_bias="0.954" />
 
     <Button
-        android:id="@+id/button11"
+        android:id="@+id/btnAcac"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="casual"
@@ -174,7 +176,7 @@
         app:layout_constraintVertical_bias="0.85" />
 
     <Button
-        android:id="@+id/button10"
+        android:id="@+id/btnIndan"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="casual"
@@ -188,7 +190,7 @@
         app:layout_constraintVertical_bias="0.752" />
 
     <Button
-        android:id="@+id/button9"
+        android:id="@+id/btnCaban"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="casual"
@@ -202,7 +204,7 @@
         app:layout_constraintVertical_bias="0.647" />
 
     <Button
-        android:id="@+id/button16"
+        android:id="@+id/btnMahay"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="casual"
@@ -214,6 +216,20 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.948" />
+
+    <Button
+        android:id="@+id/btnCommu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="Communal"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnElRio"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toEndOf="@+id/btnJadeValley"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.531" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

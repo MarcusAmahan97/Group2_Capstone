@@ -13,11 +13,13 @@ public class MainActivity extends AppCompatActivity {
     private Button getSouthBoundRoutes;
     private Button getNorthWestRoutes;
     private Button getNumberRoutes;
+    private Button getWelcomeDialog;
     TextView JeepneyRoutesMainMenu;
     Button NorthBoundRoutes;
     Button SouthBoundRoutes;
     Button NorthWestRoutes;
     Button NumberRoutes;
+    Button WelcomeDialog;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,6 +30,20 @@ public class MainActivity extends AppCompatActivity {
         SouthBoundRoutes = (Button) findViewById(R.id.btnSouth);
         NorthWestRoutes = (Button) findViewById(R.id.btnNorWes);
         NumberRoutes = (Button) findViewById(R.id.btnNumer);
+        WelcomeDialog = (Button) findViewById(R.id.imageButton);
+
+        WelcomeDialog.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                WelcomeDialog();
+
+            }
+        });
+    }
+
+    public void WelcomeDialog() {
+        Intent intent = new Intent(this, WelcomeDialog.class);
+        startActivity(intent);
 
         NorthBoundRoutes.setOnClickListener(new View.OnClickListener() {
             @Override

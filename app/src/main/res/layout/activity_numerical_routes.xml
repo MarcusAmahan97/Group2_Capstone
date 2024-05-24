@@ -8,7 +8,7 @@
     tools:context=".NumericalRoutes">
 
     <Button
-        android:id="@+id/button19"
+        android:id="@+id/btnRt4"
         android:layout_width="120dp"
         android:layout_height="60dp"
         android:fontFamily="casual"
@@ -23,7 +23,7 @@
         app:layout_constraintVertical_bias="0.509" />
 
     <Button
-        android:id="@+id/button22"
+        android:id="@+id/btnRt7"
         android:layout_width="120dp"
         android:layout_height="60dp"
         android:fontFamily="casual"
@@ -38,7 +38,7 @@
         app:layout_constraintVertical_bias="0.162" />
 
     <Button
-        android:id="@+id/button27"
+        android:id="@+id/btnRt12"
         android:layout_width="120dp"
         android:layout_height="60dp"
         android:fontFamily="casual"
@@ -53,7 +53,7 @@
         app:layout_constraintVertical_bias="0.761" />
 
     <Button
-        android:id="@+id/button17"
+        android:id="@+id/btnRt2"
         android:layout_width="120dp"
         android:layout_height="60dp"
         android:fontFamily="casual"
@@ -68,7 +68,7 @@
         app:layout_constraintVertical_bias="0.278" />
 
     <Button
-        android:id="@+id/button24"
+        android:id="@+id/btnRt9"
         android:layout_width="120dp"
         android:layout_height="60dp"
         android:fontFamily="casual"
@@ -83,7 +83,7 @@
         app:layout_constraintVertical_bias="0.396" />
 
     <Button
-        android:id="@+id/button23"
+        android:id="@+id/btnRt8"
         android:layout_width="120dp"
         android:layout_height="60dp"
         android:fontFamily="casual"
@@ -98,7 +98,7 @@
         app:layout_constraintVertical_bias="0.278" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/btnRt1"
         android:layout_width="120dp"
         android:layout_height="60dp"
         android:fontFamily="casual"
@@ -113,7 +113,7 @@
         app:layout_constraintVertical_bias="0.162" />
 
     <Button
-        android:id="@+id/button21"
+        android:id="@+id/btnRt6"
         android:layout_width="120dp"
         android:layout_height="60dp"
         android:fontFamily="casual"
@@ -128,7 +128,7 @@
         app:layout_constraintVertical_bias="0.761" />
 
     <Button
-        android:id="@+id/button26"
+        android:id="@+id/btnRt11"
         android:layout_width="120dp"
         android:layout_height="60dp"
         android:fontFamily="casual"
@@ -143,7 +143,7 @@
         app:layout_constraintVertical_bias="0.631" />
 
     <Button
-        android:id="@+id/button18"
+        android:id="@+id/btnRt3"
         android:layout_width="120dp"
         android:layout_height="60dp"
         android:fontFamily="casual"
@@ -158,7 +158,7 @@
         app:layout_constraintVertical_bias="0.396" />
 
     <Button
-        android:id="@+id/button25"
+        android:id="@+id/btnRt10"
         android:layout_width="120dp"
         android:layout_height="60dp"
         android:fontFamily="casual"
@@ -173,7 +173,7 @@
         app:layout_constraintVertical_bias="0.509" />
 
     <Button
-        android:id="@+id/button20"
+        android:id="@+id/btnRt5"
         android:layout_width="120dp"
         android:layout_height="60dp"
         android:fontFamily="casual"
@@ -188,7 +188,7 @@
         app:layout_constraintVertical_bias="0.631" />
 
     <Button
-        android:id="@+id/button28"
+        android:id="@+id/btnRt13"
         android:layout_width="120dp"
         android:layout_height="60dp"
         android:fontFamily="casual"
