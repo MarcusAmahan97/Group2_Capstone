@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PTEXAM"
+        tools:targetApi="31">
+        <activity
+            android:name=".TorilRoxasAvenue"
+            android:exported="false" />
+        <activity
+            android:name=".CalinanRoxasAvenue"
+            android:exported="false" />
+        <activity
+            android:name=".MintalRoxasAvenue"
+            android:exported="false" />
+        <activity
+            android:name=".CatalunanGrandeRoxasAvenue"
+            android:exported="false" />
+        <activity
+            android:name=".TalomoRoxasAvenue"
+            android:exported="false" />
+        <activity
+            android:name=".BagoAplayaRoxasAvenue"
+            android:exported="false" />
+        <activity
+            android:name=".PuanRamonMagsaysayAvenue"
+            android:exported="false" />
+        <activity
+            android:name=".UlasRamonMagsaysayAvenue"
+            android:exported="false" />
+        <activity
+            android:name=".BangkalRamonMagsaysayAvenue"
+            android:exported="false" />
+        <activity
+            android:name=".EcolandSMCity"
+            android:exported="false" />
+        <activity
+            android:name=".MaaBankerohan"
+            android:exported="false" />
+        <activity
+            android:name=".MatinaPangiRamonMagsaysayAvenue"
+            android:exported="false" />
+        <activity
+            android:name=".MatinaAplayaAgdao"
+            android:exported="false" />
+        <activity
+            android:name=".MatinaCrossingAgdao"
+            android:exported="false" />
+        <activity
+            android:name=".MaaAgdao"
+            android:exported="false" />
+        <activity
+            android:name=".PanaboCityDavaoCity"
+            android:exported="false" />
+        <activity
+            android:name=".LasangViaBuhangin"
+            android:exported="false" />
+        <activity
+            android:name=".LasangViaSasa"
+            android:exported="false" />
+        <activity
+            android:name=".BunawanViaBuhangin"
+            android:exported="false" />
+        <activity
+            android:name=".BunawanViaSasa"
+            android:exported="false" />
+        <activity
+            android:name=".TibungcoViaCabaguio"
+            android:exported="false" />
+        <activity
+            android:name=".TibungcoViaBuhangin"
+            android:exported="false" />
+        <activity
+            android:name=".TibungcoViaRCastillo"
+            android:exported="false" />
+        <activity
+            android:name=".DonaPilar"
+            android:exported="false" />
+        <activity
+            android:name=".PanacanSMCity"
+            android:exported="false" />
+        <activity
+            android:name=".PanacanviaCabaguio"
+            android:exported="false" />
+        <activity
+            android:name=".PanacanViaBuhanginIlustre"
+            android:exported="false" />
+        <activity
+            android:name=".PanacanViaJPLaurel"
+            android:exported="false" />
+        <activity
+            android:name=".SasaViaCabaguio"
+            android:exported="false" />
+        <activity
+            android:name=".SasaViaJPLaurel"
+            android:exported="false" />
+        <activity
+            android:name=".SasaViaRCastillo"
+            android:exported="false" />
+        <activity
+            android:name=".NumericalRoutes"
+            android:exported="false" />
+        <activity
+            android:name=".BuhanginRoutes"
+            android:exported="false" />
+        <activity
+            android:name=".SouthBoundRoutesMenu"
+            android:exported="false" />
+        <activity
+            android:name=".NorthBoundRoutesMenu"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
